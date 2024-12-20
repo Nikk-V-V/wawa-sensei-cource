@@ -1,5 +1,8 @@
-import { Canvas } from "@react-three/fiber";
+import { Canvas, extend } from "@react-three/fiber";
 import { Experience } from "./components/Experience";
+import { WaterMaterial } from "./components/WaterMaterial";
+
+extend({ WaterMaterial });
 
 export default function Shader4() {
   return (
