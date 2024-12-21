@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import ImageSlider from "./components/ImageSlider";
 import Slider from "./components/Slider";
 import AnimatedBackground from "./components/AnimatedBackground";
+import "./index.css";
 
 export default function Shader3() {
   return (

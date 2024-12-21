@@ -15,6 +15,7 @@ import Shader1 from "../pages/shader-1";
 import Shader2 from "../pages/shader-2";
 import Shader3 from "../pages/shader-3";
 import Shader4 from "../pages/shader-4";
+import Shader5 from "../pages/shader-5";
 
 const router = createBrowserRouter([
   {
@@ -83,6 +84,10 @@ const router = createBrowserRouter([
       {
         path: "shader-4",
         element: <Shader4 />
+      },
+      {
+        path: "shader-5",
+        element: <Shader5 />
       }
     ],
   },

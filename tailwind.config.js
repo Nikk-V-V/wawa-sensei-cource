@@ -4,8 +4,10 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ["Poppins", "sans-serif"],
-      display: ["Red Rose", "sans-serif"],
+      // sans: ["Poppins", "sans-serif"],
+      // display: ["Red Rose", "sans-serif"],
+      display: ["Rubik Doodle Shadow", "sans-serif"],
+      sans: ["Kanit", "sans-serif"],
     },
   },
   plugins: [],
